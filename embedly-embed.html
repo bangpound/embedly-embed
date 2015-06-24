@@ -104,6 +104,7 @@ A Polymer custom element that utilizes the Embedly API to embed content.
 	<script>
     Polymer(
       {
+        is: 'embedly-html',
         htmlChanged: function () {
           this.innerHTML = this.html;
         },

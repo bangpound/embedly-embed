@@ -22,7 +22,7 @@ A Polymer custom element that utilizes the Embedly API to embed content.
         display: block;
       }
     </style>
-    <iron-ajax id="ajax" url="//api.embed.ly/1/oembed" handleAs="json" params='{"key":"{{key}}","url":"{{url}}"}' auto on-core-response="ajaxResponse"></core-ajax>
+    <iron-ajax id="ajax" url="//api.embed.ly/1/oembed" handleAs="json" params='{"key":"{{key}}","url":"{{url}}"}' auto on-core-response="ajaxResponse"></iron-ajax>
     <template if="{{$.ajax.loading}}">
       <paper-spinner active></paper-spinner>
     </template>

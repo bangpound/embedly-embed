@@ -46,6 +46,7 @@ A Polymer custom element that utilizes the Embedly API to embed content.
   <script>
     Polymer(
       {
+        is: 'embedly-embed',
         ajaxResponse: function (event, detail, sender) {
           this.embed = detail.response;
           if (this.embed.type === 'error') console.error('embedly-embed', {url: this.embed.url, error_message: this.embed.error_message, error_code: this.embed.error_code});

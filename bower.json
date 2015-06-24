@@ -22,8 +22,8 @@
     "tests"
   ],
   "dependencies": {
-    "polymer": "polymer/polymer#^0.5.5",
-    "core-ajax": "Polymer/core-ajax#^0.5.5",
-    "paper-spinner": "Polymer/paper-spinner#^0.5.5"
+    "polymer": "polymer/polymer#~1.0",
+    "core-ajax": "Polymer/core-ajax#~0.5",
+    "paper-spinner": "Polymer/paper-spinner#~0.5"
   }
 }
